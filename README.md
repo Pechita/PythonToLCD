@@ -43,7 +43,7 @@ It waits for a special keyword ("Hey World") to start listening, and stops when 
    - Arduino IDE
 
 3. **Steps:**
-   - Upload `lcd_serial_display_handler.ino` to your Arduino using Arduino IDE.
+   - Upload `lcd_serial_display_handler.ino` to your Arduino using Arduino IDE. (MAKE SURE TO ADJUST COM TO WHATEVER COM YOU ARE USING)
    - Connect your LCD to the Arduino according to the wiring diagram.
    - Run `speech_to_lcd_controller.py` on your computer.
    - Speak into the microphone — say "**Hey World**" to start recording, "**Peace World**" to pause.
@@ -56,7 +56,7 @@ It waits for a special keyword ("Hey World") to start listening, and stops when 
 |:--------|:------------|
 | VSS     | GND |
 | VDD     | 5V |
-| VO      | GND (or potentiometer center) |
+| VO      | GND (or potentiometer center) |(You can add a resistor to your liking instead)
 | RS      | D12 |
 | RW      | GND |
 | E       | D11 |
